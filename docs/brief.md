@@ -10,4 +10,4 @@
 
 Мануал общий и не привязан к конкретным людям — см. правило «нет персоналий» в `CLAUDE.md`.
 
-Пока сайт собран только локально (см. `README.md`), решение о публикации на GitHub Pages — впереди.
+Сайт опубликован на GitHub Pages (2026-09-23): https://ekaterina-dl.github.io/1101-manual/ — репозиторий https://github.com/ekaterina-DL/1101-manual (см. `README.md`).
