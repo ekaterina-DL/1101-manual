@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Критерии отбора видео · Заявка 1101</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <a class="brand" href="overview.html">Заявка 1101 · Kandinsky — движения: зелёный экран</a>
+    <span class="page-title">КРИТЕРИИ ОТБОРА ВИДЕО</span>
+  </div>
+</header>
+
+<div class="search-bar">
+  <div class="search-bar-inner">
+    <input type="search" id="site-search-input" class="search-input" placeholder="Поиск по сайту: критерий, правило, пример…" autocomplete="off" aria-label="Поиск по сайту">
+    <div id="site-search-results" class="search-results" role="listbox" hidden></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="toc site-nav" aria-label="Страницы сайта">
+    <div class="toc-title">СТРАНИЦЫ САЙТА</div>
+    <ol>
+      <li><a href="overview.html">Обзор проекта</a></li>
+      <li><a href="criteria.html" class="active">Критерии отбора видео</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <section id="task-format">
+      <p class="eyebrow">ИНТЕРФЕЙС</p>
+      <h2>Формат рабочего задания</h2>
+      <p>Открывая рабочее задание, вы видите одно поле для ссылки, два чекбокса ориентации и кнопку проверки.</p>
+
+      <div class="callout ok">
+        <div class="callout-title">❗ Главное: одно задание = одна ссылка на один видеоколлаж</div>
+        <p style="margin-bottom:0;">Каждое задание — это <strong>одна</strong> ссылка на <strong>одно</strong> видео, а не комплект из нескольких ссылок.</p>
+      </div>
+
+      <figure class="zoom-wrap" style="margin:0 0 8px;">
+        <img src="assets/interface-work.png" alt="Интерфейс рабочего задания: поле ссылки, ориентация видео, кнопка «Проверить ссылку»">
+        <figcaption class="quiet">Интерфейс рабочего задания</figcaption>
+      </figure>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="field">Поле</th><th>Что вносим</th></tr></thead>
+          <tbody>
+            <tr id="field-link"><td class="num field">Ссылка</td><td>Ссылка на видеоколлаж, подходящий по критериям ниже. Обязательно <strong>HD (1280×720)</strong> — для любой ориентации коллажа, проверяется через значение «Качество» в приложении видеоисточника.</td></tr>
+            <tr id="field-orientation"><td class="num field">Ориентация видео</td><td>Чекбокс «Вертикальная» или «Горизонтальная» — по ориентации коллажа. Один из двух обязателен: без отмеченного чекбокса задание не отправится.</td></tr>
+            <tr id="field-check"><td class="num field">«Проверить ссылку»</td><td>Проверяет <strong>точное совпадение</strong> — не была ли уже добавлена именно эта ссылка. Если да — задание не отправится, нужно подставить другую ссылку. «То же самое движение» на другом видео кнопка не ловит — см. «<a href="#crit-povtory">Повторы движения</a>».</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout info">
+        <div class="callout-title">💡 Как проверить разрешение шортса</div>
+        <p>На шортсах разрешение не всегда видно сразу. Откройте меню (три точки сверху справа) → «Качество» — там указано фактическое разрешение видео.</p>
+        <figure style="margin:12px 0 0; max-width:280px;">
+          <img src="assets/check-resolution-menu.png" alt="Меню видеоисточника с пунктом «Качество» для проверки разрешения" style="width:100%; display:block; border-radius:var(--radius-m); border:1px solid var(--line);">
+        </figure>
+      </div>
+    </section>
+
+    <section id="criteria">
+      <p class="eyebrow">КРИТЕРИИ</p>
+      <h2>Критерии отбора видео</h2>
+      <p>Критерии одинаковы для рабочих заданий и экзамена. Общая логика таблиц: слева — что подходит, справа — что не подходит.</p>
+
+      <h3 id="crit-g-duration">Длительность видео и движения</h3>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:22%"><col style="width:39%"><col style="width:39%"></colgroup>
+          <thead><tr><th>Параметр</th><th class="za">Подходит</th><th class="protiv">Не подходит</th></tr></thead>
+          <tbody>
+            <tr id="crit-dlitelnost-video"><td>Длительность видео</td><td class="za">✅ <strong>Не длиннее 30 минут</strong>. В экзаменационной инструкции нижняя граница явно указана — 5 секунд; в рабочей отдельно не прописана, но следует из требования к самому движению (минимум 5 секунд, см. ниже), которое видео обязано содержать.</td><td class="protiv">❌ <strong>Длиннее 30 минут</strong>.</td></tr>
+            <tr id="crit-dlitelnost-dvizheniya"><td>Длительность движения</td><td class="za">✅ <strong>От 5 до 60 секунд</strong>.</td><td class="protiv">❌ <strong>Короче 5 секунд</strong> или <strong>длиннее 60 секунд</strong>.</td></tr>
+            <tr id="crit-skleyki"><td>Склейки в момент движения</td><td class="za">✅ На <strong>всём протяжении</strong> движения (какой бы ни была его длительность — от 5 до 60 секунд) — <strong>без склеек и переходов</strong>.</td><td class="protiv">❌ Внутри движения, независимо от его длительности, есть <strong>склейка или переход</strong>.</td></tr>
+            <tr id="crit-zavershennost"><td>Завершённость движения</td><td class="za">✅ Движение <strong>завершено</strong> (не обрывается), выполняется по <strong>одной и той же траектории</strong> в обеих частях коллажа и максимально идентично. <span class="quiet">Проверяется в рабочих заданиях. На экзамене акцент только на идентичности траектории (см. «Движение камеры» ниже) — завершённость отдельно не оценивается.</span></td><td class="protiv">❌ Движение <strong>обрывается</strong> на середине или траектория в двух частях коллажа заметно различается.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="crit-g-people">Человек в кадре</h3>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:22%"><col style="width:39%"><col style="width:39%"></colgroup>
+          <thead><tr><th>Параметр</th><th class="za">Подходит</th><th class="protiv">Не подходит</th></tr></thead>
+          <tbody>
+            <tr id="crit-razlichimost"><td>Различимость людей</td><td class="za">✅ Человек, выполняющий движение, <strong>хорошо различим</strong>.</td><td class="protiv">❌ Человек <strong>виден издалека</strong>, в том числе один человек в толпе, снятый издалека (например, съёмка матча с трибун).</td></tr>
+            <tr id="crit-neskolko-chelovek"><td>Несколько человек в кадре</td><td class="za">✅ Движение выполняет не один человек, а несколько; допустимо, если один выполняет движение, а остальные — на фоне.</td><td class="protiv">—</td></tr>
+            <tr id="crit-perekrytie"><td>Текст / предметы / выход за кадр</td><td class="za">✅ <strong>Небольшое</strong> перекрытие текстом или предметом; <strong>частичный</strong> выход человека за пределы кадра во время движения. Человек должен быть виден полностью.</td><td class="protiv">❌ Перекрытие или выход за кадр <strong>мешают увидеть человека полностью</strong>.</td></tr>
+            <tr id="crit-ramki"><td>Рамки</td><td class="za">✅ Допустимы <strong>без ограничений</strong> — декоративная рамка по краю кадра сбору не мешает.</td><td class="protiv">—</td></tr>
+            <tr id="crit-votermarki"><td>Вотермарки</td><td class="za">✅ Допустимы, если <strong>не перекрывают</strong> человека, выполняющего движение.</td><td class="protiv">❌ Вотермарка <strong>перекрывает</strong> человека или его движение.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="crit-g-collage">Коллаж: границы и масштаб</h3>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:22%"><col style="width:39%"><col style="width:39%"></colgroup>
+          <thead><tr><th>Параметр</th><th class="za">Подходит</th><th class="protiv">Не подходит</th></tr></thead>
+          <tbody>
+            <tr id="crit-granitsa"><td>Граница между частями</td><td class="za">✅ Граница <strong>тонкая</strong> и проходит <strong>ровно посередине</strong> — обе половинки равны друг другу. Линия может быть и горизонтальной, и вертикальной — зависит от ориентации самого коллажа, оба варианта нормальны.</td><td class="protiv">❌ Граница <strong>толстая</strong> либо проходит <strong>не посередине</strong> (половинки не равны).</td></tr>
+            <tr id="crit-masshtab"><td>Масштаб частей</td><td class="za">✅ Масштаб человека <strong>одинаков</strong> в обеих частях коллажа.</td><td class="protiv">❌ Масштаб частей <strong>разный</strong> (например, человек в одной части заметно мельче).</td></tr>
+            <tr id="crit-otsutstvie-ekrana"><td>Отсутствие зелёного/синего экрана</td><td class="za">✅ Допустимо — если в кадре «до» эффекта зелёного/синего фона не видно, это не мешает сбору.</td><td class="protiv">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="example-grid">
+        <div class="example-card fail" style="margin-bottom:0;">
+          <video class="media portrait" controls preload="metadata" src="assets/defect-thick-border.mp4"></video>
+          <div class="status">❌ Толстая граница</div>
+          <div class="body"><p>Между частями коллажа — заметная толстая граница. Такое видео к сбору не подлежит.</p></div>
+        </div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <video class="media portrait" controls preload="metadata" src="assets/defect-scale-mismatch.mp4"></video>
+          <div class="status">❌ Разный масштаб частей</div>
+          <div class="body"><p>Масштаб частей коллажа не совпадает. Такое видео к сбору не подлежит.</p></div>
+        </div>
+      </div>
+
+      <h3 id="crit-g-tech">Съёмка и обработка</h3>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:22%"><col style="width:39%"><col style="width:39%"></colgroup>
+          <thead><tr><th>Параметр</th><th class="za">Подходит</th><th class="protiv">Не подходит</th></tr></thead>
+          <tbody>
+            <tr id="crit-skorost"><td>Скорость</td><td class="za">✅ Естественная скорость движения.</td><td class="protiv">❌ <strong>Искусственные замедления и ускорения</strong> — недопустимы.</td></tr>
+            <tr id="crit-zoom"><td>Движение камеры (зум, вращение)</td><td class="za">✅ Допустимо на частях коллажа (приближение, отдаление, вращение), <strong>если траектория самого движения на обеих частях идентична</strong>. Действует одинаково в рабочих заданиях и на экзамене.</td><td class="protiv">—</td></tr>
+            <tr id="crit-povtory"><td>Повторы движения</td><td class="za">✅ Движение <strong>впервые</strong> собирается в проекте — за этим следит сам исполнитель.</td><td class="protiv">❌ Такое же движение <strong>во всём проекте не должно повторяться</strong>. <span class="quiet">Общего списка уже собранных движений нет — кнопка «Проверить ссылку» ловит только повтор точно такой же ссылки, а не похожего движения на другом видео.</span></td></tr>
+            <tr id="crit-ii"><td>Происхождение видео</td><td class="za">✅ Видео с реальными компьютерными эффектами (CGI) — то, что и собираем: примеры 1–4 ниже.</td><td class="protiv">❌ Видео <strong>полностью сгенерировано нейросетью</strong> — например, по текстовому запросу. Пример от заказчика — ниже.</td></tr>
+            <tr id="crit-polosy"><td>Технический артефакт (распад на полосы)</td><td class="za">✅ Объекты и человек в кадре видны чётко, без искажений.</td><td class="protiv">❌ Объекты в кадре <strong>распадаются на полосы</strong> — недопустимо. Действует одинаково в рабочих заданиях и на экзамене.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="example-grid" style="grid-template-columns:1fr;">
+        <div class="example-card fail" style="margin-bottom:0;">
+          <a class="media video-fallback" href="https://www.youtube.com/watch?v=9IlOLRxcpRM" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.youtube.com/vi/9IlOLRxcpRM/hqdefault.jpg" alt="Пример видео, полностью созданного ИИ — не подходит">
+            <span class="play"><span>▶</span></span>
+            <span class="caption">Автор запретил показ плеера на сторонних сайтах — открыть пример на видеоисточнике ↗</span>
+          </a>
+          <div class="status">❌ Видео полностью создано ИИ — пример от заказчика</div>
+          <div class="body"><p>Такое видео недопустимо: оно целиком сгенерировано нейросетью, хотя по жанру мимикрирует под настоящее «CGI до/после». Отличайте его от примеров 1–4 ниже — там реальные киноспецэффекты, и это именно то, что нужно собирать.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="examples">
+      <p class="eyebrow">ПРИМЕРЫ</p>
+      <h2>Разбор примеров из инструкций</h2>
+      <p>Семь примеров из официальных инструкций заказчика — с видео и вердиктом.</p>
+
+      <div class="example-grid">
+        <div class="example-card pass" style="margin-bottom:0;">
+          <video class="media portrait" controls preload="metadata" src="assets/example-1-magic-vfx.mp4"></video>
+          <div class="status">✅ Пример 1 — подходит</div>
+          <div class="body"><p>Видео длится менее 30 минут, идентичное движение — в пределах 5 секунд, не перекрывается предметами или наложениями, половинки коллажа равны.</p></div>
+        </div>
+        <div class="example-card pass" style="margin-bottom:0;">
+          <video class="media portrait" controls preload="metadata" src="assets/example-2-blender-cgi.mp4"></video>
+          <div class="status">✅ Пример 2 — подходит</div>
+          <div class="body"><p>Видео длится менее 30 минут, движение — в пределах 5 секунд, наложения не мешают, половинки равны, граница между частями тонкая. Зелёный/синий экран на кадре «до» не виден — это не проблема, эффект CGI всё равно показан коллажем.</p></div>
+        </div>
+        <div class="example-card pass" style="margin-bottom:0;">
+          <video class="media portrait" controls preload="metadata" src="assets/example-3-vertical.mp4"></video>
+          <div class="status">✅ Пример 3 — подходит</div>
+          <div class="body"><p>Видео длится менее 30 минут, движение — в пределах 5 секунд, наложения не мешают, половинки равны. Для сбора подходят и вертикальные коллажи.</p></div>
+        </div>
+        <div class="example-card pass" style="margin-bottom:0;">
+          <video class="media portrait" controls preload="metadata" src="assets/example-4-compositing.mp4"></video>
+          <div class="status">✅ Пример 4 — подходит</div>
+          <div class="body"><p>Видео длится менее 30 минут, движение — в пределах 5 секунд, наложения не мешают, половинки равны. На верхней части коллажа есть движение камеры, а на нижней нет — это различие сбору не мешает.</p></div>
+        </div>
+        <div class="example-card fail wide" style="margin-bottom:0;">
+          <video class="media" controls preload="metadata" src="assets/example-5-harry-potter-fail.mp4"></video>
+          <div class="status">❌ Пример 5 — не подходит</div>
+          <div class="body"><p>Видео длится менее 30 минут, <strong>но</strong> само движение длится менее 5 секунд (с 3:07 по 3:11), между частями коллажа — толстая граница, на правом кадре есть склейка.</p></div>
+        </div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <video class="media" controls preload="metadata" src="assets/example-6-avatar-behind-scenes-fail.mp4"></video>
+          <div class="status">❌ Пример 6 — не подходит</div>
+          <div class="body"><p>Видео слева после применения эффекта считается наложением; также не подходит по разрешению — оно слишком мало по отношению к масштабу видео «до» эффекта.</p></div>
+        </div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <video class="media portrait" controls preload="metadata" src="assets/example-7-breakdown-fail.mp4"></video>
+          <div class="status">❌ Пример 7 — не подходит</div>
+          <div class="body"><p>Половинки коллажа не равны друг другу: на верхней половинке видна только часть человека, а масштаб в целом слишком маленький.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="checklist">
+      <p class="eyebrow">ПЕРЕД ОТПРАВКОЙ</p>
+      <h2>Проверьте себя</h2>
+      <div class="callout warn">
+        <div class="callout-title">⚠ Чек-лист перед отправкой задания</div>
+        <ul style="margin-bottom:0;">
+          <li>Ссылка ведёт на видео в разрешении <strong>HD (1280×720)</strong> и не длиннее 30 минут.</li>
+          <li>Отмечен чекбокс ориентации — <strong>вертикальная</strong> или <strong>горизонтальная</strong>.</li>
+          <li>Нажата кнопка <strong>«Проверить ссылку»</strong>, чтобы исключить дубли.</li>
+          <li>Движение целиком, без склеек — <strong>завершено</strong> и идентично в обеих частях коллажа.</li>
+          <li>Граница между частями <strong>тонкая</strong> и по центру, масштаб частей совпадает.</li>
+          <li>Такое движение <strong>ещё не собиралось</strong> в проекте.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <nav class="toc page-nav" aria-label="На этой странице">
+    <div class="toc-title">НА ЭТОЙ СТРАНИЦЕ</div>
+    <ol>
+      <li><a href="#task-format">Формат задания</a></li>
+      <li><a href="#criteria">Критерии отбора</a>
+        <ol>
+          <li><a href="#crit-g-duration">Длительность</a></li>
+          <li><a href="#crit-g-people">Человек в кадре</a></li>
+          <li><a href="#crit-g-collage">Коллаж: границы, масштаб</a></li>
+          <li><a href="#crit-g-tech">Съёмка и обработка</a></li>
+        </ol>
+      </li>
+      <li><a href="#examples">Разбор примеров</a></li>
+      <li><a href="#checklist">Перед отправкой</a></li>
+    </ol>
+  </nav>
+</div>
+
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js" defer></script>
+</body>
+</html>

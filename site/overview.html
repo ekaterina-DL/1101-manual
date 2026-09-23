@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Обзор проекта · Заявка 1101</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-kicker">РАБОЧИЙ МАНУАЛ · СБОР ССЫЛОК НА ВИДЕОКОЛЛАЖИ</p>
+    <h1>Заявка 1101<br>Kandinsky collection video&nbsp;yt —&nbsp;движения: зелёный экран</h1>
+    <p class="lead">Инструкция по поиску и проверке видеоколлажей «до/после» CGI: кадры из фильма и те же самые кадры на фоне зелёного или синего экрана — одно и то же движение, снятое дважды.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="n">1000</span><span class="l">видео — цель проекта</span></div>
+      <div class="hero-stat"><span class="n">1</span><span class="l">ссылка — объём одного задания</span></div>
+      <div class="hero-stat"><span class="n">HD</span><span class="l">1280×720 — обязательное разрешение</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <div class="search-bar-inner">
+    <input type="search" id="site-search-input" class="search-input" placeholder="Поиск по сайту: критерий, правило, пример…" autocomplete="off" aria-label="Поиск по сайту">
+    <div id="site-search-results" class="search-results" role="listbox" hidden></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="toc site-nav" aria-label="Страницы сайта">
+    <div class="toc-title">СТРАНИЦЫ САЙТА</div>
+    <ol>
+      <li><a href="overview.html" class="active">Обзор проекта</a></li>
+      <li><a href="criteria.html">Критерии отбора видео</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <section id="project">
+      <p class="eyebrow">ОБЗОР</p>
+      <h2>Что за проект</h2>
+      <p>Проект — сбор ссылок на <strong>видеоколлажи</strong>: ролики, разделённые на две части с идентичным движением.</p>
+      <div class="flow bidirectional">
+        <div class="flow-step">
+          <div class="num">Кадр из фильма</div>
+          <h4>После монтажа и CGI</h4>
+          <p>Финальная сцена — как её видит зритель, спецэффект уже наложен.</p>
+        </div>
+        <div class="flow-step">
+          <div class="num">Тот же самый кадр до эффекта</div>
+          <h4>На зелёном или синем экране</h4>
+          <p>Та же самая съёмка до наложения спецэффектов — фон ещё не заменён.</p>
+        </div>
+      </div>
+      <p class="quiet" style="margin:-8px 0 14px;">⇄ Порядок частей не важен — подходит и «до → после», и «после → до».</p>
+      <p>Задача — собрать <strong>1000</strong> таких видео. Формат задания простой: <strong>одна ссылка — одно задание</strong>. Подробности о полях и проверках — на странице «<a href="criteria.html">Критерии отбора видео</a>».</p>
+      <div class="callout ok">
+        <div class="callout-title">✓ Отсутствие самого зелёного/синего экрана — не проблема</div>
+        <p>Если в кадре «до» эффекта зелёного или синего фона не видно — это не мешает сбору. Главное, что коллаж в принципе показывает эффект CGI: сравнение кадра до и после обработки.</p>
+      </div>
+      <div class="callout warn">
+        <div class="callout-title">⚠ CGI — это не «сделано ИИ»</div>
+        <p style="margin-bottom:0;">Запрет на «видео, сделанные ИИ» — это не про компьютерную графику и киноспецэффекты (CGI), а именно то, что мы и собираем. Запрет — про ролики, которые нейросеть сгенерировала целиком (например, по текстовому запросу). Разбор с примером от заказчика — на странице «<a href="criteria.html#crit-ii">Критерии отбора видео</a>».</p>
+      </div>
+    </section>
+
+    <section id="terms">
+      <p class="eyebrow">ТЕРМИНЫ</p>
+      <h2>Видеоколлаж</h2>
+      <p><strong>Видеоколлаж</strong> — это видео, где кадр поделён на две части (по горизонтали или по вертикали — коллаж может быть как горизонтальным, так и вертикальным), и в обеих частях выполняется <strong>одно и то же движение</strong> по одной и той же траектории.</p>
+      <div class="two-col">
+        <div class="callout ok">
+          <div class="callout-title">✅ Отбираем только коллажи, где:</div>
+          <ul style="margin-bottom:0;">
+            <li>граница между частями <strong>тонкая</strong> и проходит <strong>ровно посередине</strong> (обе половинки равны друг другу по размеру);</li>
+            <li><strong>масштаб</strong> человека в обеих частях совпадает.</li>
+          </ul>
+        </div>
+        <div class="callout danger">
+          <div class="callout-title">❌ Не отбираем:</div>
+          <ul style="margin-bottom:0;">
+            <li>коллажи с <strong>толстой границей</strong>;</li>
+            <li>коллажи со <strong>смещённым разделением</strong> или <strong>разным масштабом частей</strong>.</li>
+          </ul>
+        </div>
+      </div>
+      <p>Подробный разбор с примерами — на странице «<a href="criteria.html#crit-g-collage">Критерии отбора видео</a>».</p>
+    </section>
+
+    <section id="start">
+      <p class="eyebrow">СТАРТ</p>
+      <h2>Два формата: рабочие задания и экзамен</h2>
+      <div style="display:flex; gap:18px; align-items:center; margin-bottom:14px;">
+        <img src="assets/tagme.png" alt="Логотип платформы Tagme" style="width:120px; flex-shrink:0;">
+        <p style="margin:0;">Рабочие задания и вступительный экзамен выполняются в личном кабинете на платформе <strong>Tagme</strong>; доступ к нему выдаёт руководитель группы Data Light. Интерфейсы у них разные — не перепутайте.</p>
+      </div>
+
+      <h3 id="start-work">Рабочие задания</h3>
+      <p style="margin-bottom:0;">Ссылку ищете и добавляете <strong>вы сами</strong>: вставляете её в поле, отмечаете ориентацию видео (вертикальная / горизонтальная) и нажимаете «Проверить ссылку», чтобы исключить дубли. Без отмеченного чекбокса и проверенной ссылки задание не отправится. Экран рабочего задания — на странице «<a href="criteria.html#task-format">Критерии отбора видео</a>».</p>
+
+      <h3 id="start-exam">Экзамен</h3>
+      <p>На экзамене всё наоборот: ссылку на видео вам уже дают в задании. Вы открываете её, оцениваете по критериям и отмечаете «Да, подлежит» / «Нет, не подлежит». Если «не подлежит» — в поле «Комментарий» нужно кратко пояснить причину (например: склейка, наложение и т.п.).</p>
+      <figure style="margin:0 0 16px;">
+        <img src="assets/interface-exam.png" alt="Интерфейс экзамена — оценка одной готовой ссылки: Да/Нет + комментарий" style="width:100%; display:block; border-radius:var(--radius-m); border:1px solid var(--line);">
+      </figure>
+
+      <div class="callout info">
+        <div class="callout-title hl">📝 Экзамен: цифры</div>
+        <ul style="margin-bottom:0;">
+          <li>Всего <strong>20 заданий</strong>, на каждое — <strong>15 минут</strong>.</li>
+          <li>Проходной балл — <strong>17 из 20 (85%)</strong> правильных ответов.</li>
+        </ul>
+      </div>
+
+      <div class="callout warn">
+        <div class="callout-title">⚠ Вторая попытка пока не предусмотрена</div>
+        <p style="margin-bottom:0;">Если экзамен не пройден с первого раза — повторного доступа пока нет. Отнеситесь к прохождению максимально внимательно.</p>
+      </div>
+
+      <p class="quiet">Перед отправкой каждого задания на экзамене — проверьте, что при ответе «Нет, не подлежит» заполнено поле «Комментарий».</p>
+    </section>
+
+    <section id="process">
+      <p class="eyebrow">ПРОЦЕСС</p>
+      <h2>Как устроена проверка</h2>
+      <ul>
+        <li>Все присланные ссылки проходят проверку валидатором — <strong>в 100% объёме</strong>, выборочных проверок нет.</li>
+        <li>Если валидатор отклоняет уже принятую ссылку — повторно она не принимается: нужно предложить другое видео.</li>
+        <li>Кнопка «Проверить ссылку» ловит только <strong>точное совпадение</strong> уже добавленной ссылки. «То же самое движение» на другом видео она не отследит — общего списка уже собранных движений в этом проекте нет, за неповторяемостью движений исполнитель следит сам (подробнее — «<a href="criteria.html#crit-povtory">Повторы движения</a>»).</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <nav class="toc page-nav" aria-label="На этой странице">
+    <div class="toc-title">НА ЭТОЙ СТРАНИЦЕ</div>
+    <ol>
+      <li><a href="#project">Что за проект</a></li>
+      <li><a href="#terms">Видеоколлаж</a></li>
+      <li><a href="#start">Два формата: задания и экзамен</a>
+        <ol>
+          <li><a href="#start-work">Рабочие задания</a></li>
+          <li><a href="#start-exam">Экзамен</a></li>
+        </ol>
+      </li>
+      <li><a href="#process">Как устроена проверка</a></li>
+    </ol>
+  </nav>
+</div>
+
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js" defer></script>
+</body>
+</html>
