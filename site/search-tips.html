@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как искать видео · Заявка 1101</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <a class="brand" href="overview.html">Заявка 1101 · Kandinsky — движения: зелёный экран</a>
+    <span class="page-title">КАК ИСКАТЬ ВИДЕО</span>
+  </div>
+</header>
+
+<div class="search-bar">
+  <div class="search-bar-inner">
+    <input type="search" id="site-search-input" class="search-input" placeholder="Поиск по сайту: критерий, правило, пример…" autocomplete="off" aria-label="Поиск по сайту">
+    <div id="site-search-results" class="search-results" role="listbox" hidden></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="toc site-nav" aria-label="Страницы сайта">
+    <div class="toc-title">СТРАНИЦЫ САЙТА</div>
+    <ol>
+      <li><a href="overview.html">Обзор проекта</a></li>
+      <li><a href="criteria.html">Критерии отбора видео</a></li>
+      <li><a href="search-tips.html" class="active">Как искать видео</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <section id="tips-intro">
+      <p class="eyebrow">ЛАЙФХАКИ</p>
+      <h2>Как быстрее находить видеоколлажи</h2>
+      <p>Приёмы поиска подходящих роликов на видеоисточнике. Это рекомендации, а не правила: что подходит, а что нет, решают только «<a href="criteria.html#criteria">Критерии отбора видео</a>».</p>
+      <div class="callout info">
+        <div class="callout-title">💡 Главное: ищите на английском</div>
+        <p style="margin-bottom:0;">Большинство роликов «до/после» спецэффектов подписаны по-английски. Жанр называется <strong>VFX breakdown</strong> (разбор визуальных эффектов): с этого запроса удобнее всего начинать.</p>
+      </div>
+    </section>
+
+    <section id="tips-source">
+      <p class="eyebrow">ВИДЕОИСТОЧНИК</p>
+      <h2>Поиск на самом видеоисточнике</h2>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:28%"><col style="width:72%"></colgroup>
+          <thead><tr><th>Приём</th><th>Как это работает</th></tr></thead>
+          <tbody>
+            <tr id="tip-quotes"><td><strong>1. Точная фраза в кавычках</strong></td><td>Вводите запрос в кавычках, чтобы находилась именно эта фраза, а не ролики, где слова разбросаны по описанию. Рабочие запросы: <code>"VFX breakdown"</code>, <code>"before and after VFX"</code>, <code>"green screen before and after"</code>, <code>"CGI before and after"</code>, <code>"blue screen breakdown"</code>, <code>"VFX side by side"</code>, <code>"split screen VFX"</code>.</td></tr>
+            <tr id="tip-film"><td><strong>2. Название фильма + «VFX breakdown»</strong></td><td>Вспомните фильм, где много спецэффектов и живые актёры что-то делают в кадре: боевики, супергеройское кино, фэнтези. Ищите <code>название фильма VFX breakdown</code> или <code>название фильма green screen</code>. Так находятся ролики, до которых общий запрос не доходит.</td></tr>
+            <tr id="tip-studios"><td><strong>3. Каналы студий спецэффектов и их плейлисты</strong></td><td>Студии компьютерной графики выкладывают разборы своих работ, например Weta FX, Framestore, DNEG, Rodeo FX, Pixomondo, Scanline VFX, Digital Domain, Image Engine. Откройте вкладку «Плейлисты» на канале студии: там часто есть подборка «Breakdowns», в которой сразу десятки роликов.</td></tr>
+            <tr id="tip-related"><td><strong>4. Похожие видео под найденным роликом</strong></td><td>Откройте ролик, который точно подходит, и посмотрите похожие видео в боковой панели. Они подобраны по содержанию именно этого ролика, поэтому там чаще встречаются такие же коллажи, а не просто ролики про кино.</td></tr>
+            <tr id="tip-shorts"><td><strong>5. Отдельно искать среди шортсов</strong></td><td>Вертикальные коллажи («до» сверху, «после» снизу или наоборот) в основном выкладывают как шортсы (короткие вертикальные ролики). Переключитесь на вкладку шортсов с тем же запросом. Разрешение у шортса проверяйте через меню → «Качество» (подробнее в разделе «<a href="criteria.html#task-format">Формат рабочего задания</a>»).</td></tr>
+            <tr id="tip-filters"><td><strong>6. Фильтры поиска</strong></td><td>Откройте «Фильтры». Фильтр <strong>длительности</strong> (короткие или средние ролики) сразу отсекает часовые фильмы о съёмках: лимит проекта — 30 минут. Фильтр <strong>по дате загрузки</strong> (за месяц или год) показывает свежие ролики, которые другие исполнители, скорее всего, ещё не нашли. Если в фильтрах есть пункт <strong>HD</strong>, включите его, чтобы убрать ролики в низком качестве.</td></tr>
+            <tr id="tip-hashtags"><td><strong>7. Хэштеги под видео</strong></td><td>Под описанием часто стоят кликабельные хэштеги: <code>#vfxbreakdown</code>, <code>#greenscreen</code>, <code>#beforeandafter</code>, <code>#cgi</code>. Клик по хэштегу открывает ленту всех роликов с ним, то есть готовую подборку.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="tips-google">
+      <p class="eyebrow">ПОИСКОВИК</p>
+      <h2>Поиск через Google</h2>
+      <p>Google иногда находит ролики точнее, чем поиск на самом видеоисточнике, потому что лучше читает описания и субтитры.</p>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:28%"><col style="width:72%"></colgroup>
+          <thead><tr><th>Приём</th><th>Как это работает</th></tr></thead>
+          <tbody>
+            <tr id="tip-site"><td><strong>8. Оператор <code>site:</code> + точная фраза</strong></td><td>Оператор <code>site:</code> ограничивает выдачу одним сайтом. Введите в Google <code>site:</code>, сразу за ним без пробела адрес видеоисточника (домен из адресной строки браузера), а после пробела точную фразу: <code>"VFX breakdown" "side by side"</code>. Добавка <code>"side by side"</code> или <code>"split screen"</code> помогает найти именно ролики, где обе части показаны одновременно.</td></tr>
+            <tr id="tip-site-film"><td><strong>9. Тот же оператор + название фильма</strong></td><td><code>site:</code> + адрес видеоисточника + <code>название фильма "green screen"</code>. Помогает, когда поиск на самом видеоисточнике по названию фильма выдаёт в основном трейлеры.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="tips-queries">
+      <p class="eyebrow">ЗАПРОСЫ</p>
+      <h2>Синонимы и уточнения</h2>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:28%"><col style="width:72%"></colgroup>
+          <thead><tr><th>Приём</th><th>Как это работает</th></tr></thead>
+          <tbody>
+            <tr id="tip-synonyms"><td><strong>10. Разные названия одного жанра</strong></td><td>Один и тот же жанр называют по-разному: <code>VFX breakdown</code>, <code>CGI breakdown</code>, <code>VFX reel</code>, <code>before and after</code>, <code>behind the VFX</code>, <code>making of VFX</code>, <code>chroma key</code>. На русском: <code>спецэффекты до и после</code>, <code>хромакей до и после</code>, <code>как снимали без графики</code>. Пробуйте каждый вариант отдельным запросом.</td></tr>
+            <tr id="tip-action"><td><strong>11. Уточнение по действию человека</strong></td><td>Нам нужно движение человека, которого хорошо видно. Добавляйте к запросу действие: <code>stunt</code> (трюк), <code>fight scene</code> (сцена драки), <code>wire work</code> (трюки на тросах), <code>action scene</code>, <code>dance</code>, <code>jump</code>, например <code>stunt green screen before after</code>. Так в выдаче будет меньше разборов, где графикой заменяют только фон, здания или машины.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="tips-filter">
+      <p class="eyebrow">БЫСТРЫЙ ОТСЕВ</p>
+      <h2>Что проверить сразу, чтобы не тратить время</h2>
+      <div class="table-wrap fixed">
+        <table>
+          <colgroup><col style="width:28%"><col style="width:72%"></colgroup>
+          <thead><tr><th>Приём</th><th>Как это работает</th></tr></thead>
+          <tbody>
+            <tr id="tip-wipe"><td><strong>12. Смена кадров вместо разделённого экрана</strong></td><td>Во многих разборах «до» и «после» не стоят рядом, а сменяют друг друга: шторкой, наплывом или сдвигом. Это не видеоколлаж, и такой ролик не подходит, даже если сам разбор хороший. Нужны ролики, где обе части видны одновременно, половинки равны, а граница тонкая (подробнее в разделе «<a href="criteria.html#crit-g-collage">Коллаж: границы и масштаб</a>»).</td></tr>
+            <tr id="tip-compilations"><td><strong>13. Подборки из многих сцен</strong></td><td>В подборках вида «Top 10 VFX before and after» склейки идут часто. Найдите фрагмент, где движение длится <strong>от 5 до 60 секунд без единой склейки</strong>. Помните: одна ссылка — одно задание, поэтому из одной подборки получится только одно задание.</td></tr>
+            <tr id="tip-ai"><td><strong>14. Признаки видео от нейросети</strong></td><td>Насторожитесь, если канал выкладывает только ролики «CGI до/после» без названий фильмов и студий, в большом количестве и почти одинакового вида, а в части «до» «плывут» руки, лица или фон. Настоящий разбор почти всегда указывает фильм или студию. Пример такого ролика от заказчика — в разделе «<a href="criteria.html#crit-ii">Происхождение видео</a>».</td></tr>
+            <tr id="tip-log"><td><strong>15. Свой список уже собранных сцен</strong></td><td>Одну и ту же сцену из фильма перезаливают десятки каналов. Ролик с тем же движением по другой ссылке считается повтором, а кнопка «Проверить ссылку» такой повтор не поймает (см. «<a href="criteria.html#crit-povtory">Повторы движения</a>»). Записывайте для себя фильм и сцену, например «Фильм X — прыжок с крыши», и сверяйтесь со списком перед отправкой.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <nav class="toc page-nav" aria-label="На этой странице">
+    <div class="toc-title">НА ЭТОЙ СТРАНИЦЕ</div>
+    <ol>
+      <li><a href="#tips-intro">Главное</a></li>
+      <li><a href="#tips-source">На видеоисточнике</a></li>
+      <li><a href="#tips-google">Через Google</a></li>
+      <li><a href="#tips-queries">Синонимы и уточнения</a></li>
+      <li><a href="#tips-filter">Быстрый отсев</a></li>
+    </ol>
+  </nav>
+</div>
+
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js" defer></script>
+</body>
+</html>
