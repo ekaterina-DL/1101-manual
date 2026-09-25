@@ -372,6 +372,7 @@ h3[id]{scroll-margin-top:20px;}
 .example-card iframe.media{width:100%; aspect-ratio:16/9; border:0; background:#000;}
 .example-card iframe.media.portrait{width:auto; height:460px; max-width:100%; aspect-ratio:9/16; margin:0 auto; display:block;}
 .video-fallback{position:relative; display:block; aspect-ratio:16/9; overflow:hidden; text-decoration:none;}
+.video-fallback.portrait{display:block; width:fit-content; height:460px; max-width:100%; max-height:60vh; aspect-ratio:9/16; margin:0 auto;}
 .video-fallback img{display:block; width:100%; height:100%; object-fit:cover;}
 .video-fallback .play{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,.32);}
 .video-fallback .play span{width:60px; height:60px; border-radius:50%; background:rgba(255,255,255,.92); display:flex; align-items:center; justify-content:center; font-size:20px; color:var(--ink); box-shadow:0 2px 10px rgba(0,0,0,.35);}
