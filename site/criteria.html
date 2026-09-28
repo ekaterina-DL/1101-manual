@@ -96,6 +96,7 @@
           <colgroup><col style="width:22%"><col style="width:39%"><col style="width:39%"></colgroup>
           <thead><tr><th>Параметр</th><th class="za">Подходит</th><th class="protiv">Не подходит</th></tr></thead>
           <tbody>
+            <tr id="crit-sushchestvo"><td>Кто выполняет движение</td><td class="za">✅ <strong>Человек</strong> или <strong>антропоморфное существо</strong> (например, робот) — прямоходящее, с глазами и конечностями как у человека.</td><td class="protiv">❌ Движение выполняет <strong>неживое</strong> (не человек и не человекоподобное существо), при этом движения <strong>не плавные, а урывками</strong>. Пример от заказчика — ниже.</td></tr>
             <tr id="crit-razlichimost"><td>Различимость людей</td><td class="za">✅ Человек, выполняющий движение, <strong>хорошо различим</strong>.</td><td class="protiv">❌ Человек <strong>виден издалека</strong>, в том числе один человек в толпе, снятый издалека (например, съёмка матча с трибун).</td></tr>
             <tr id="crit-neskolko-chelovek"><td>Несколько человек в кадре</td><td class="za">✅ Движение выполняет не один человек, а несколько; допустимо, если один выполняет движение, а остальные — на фоне.</td><td class="protiv">—</td></tr>
             <tr id="crit-perekrytie"><td>Текст / предметы / выход за кадр</td><td class="za">✅ <strong>Небольшое</strong> перекрытие текстом или предметом; <strong>частичный</strong> выход человека за пределы кадра во время движения. Человек должен быть виден полностью.</td><td class="protiv">❌ Перекрытие или выход за кадр <strong>мешают увидеть человека полностью</strong>.</td></tr>
@@ -105,13 +106,19 @@
         </table>
       </div>
 
-      <div class="example-grid" style="grid-template-columns:1fr;">
+      <div class="example-grid">
         <div class="example-card fail" style="margin-bottom:0;">
-          <a class="media video-fallback portrait" href="https://www.youtube.com/shorts/OrE1nEDkn-Y" target="_blank" rel="noopener noreferrer">
-            <img src="https://i.ytimg.com/vi/OrE1nEDkn-Y/hq2.jpg" alt="Пример, где голова человека обрезана краем кадра — не подходит">
-            <span class="play"><span>▶</span></span>
-            <span class="caption">Автор запретил показ плеера на сторонних сайтах — открыть пример на видеоисточнике ↗</span>
-          </a>
+          <iframe class="media" src="https://www.youtube.com/embed/uINhIsOQSoo" title="Пример: движение выполняет неживое, урывками — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="status">❌ Не человек и не человекоподобное существо — пример от заказчика</div>
+          <div class="body"><p>Движение выполняет неживое, и движения не плавные, а урывками. Такое видео к сбору не подлежит (см. «Кто выполняет движение» выше).</p></div>
+        </div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <iframe class="media" src="https://www.youtube.com/embed/Si9EeNqM_kI" title="Пример: люди видны не полностью и выполняют разные движения — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="status">❌ Люди видны не полностью, движения разные — комментарий валидатора</div>
+          <div class="body"><p>Комментарий валидатора: на видео люди либо видны не полностью (даже не по пояс), либо в кадре много людей, выполняющих разные движения. Если в кадре несколько человек на одном плане — они должны двигаться одинаково.</p></div>
+        </div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <iframe class="media portrait" src="https://www.youtube.com/embed/OrE1nEDkn-Y" title="Пример: голова человека обрезана краем кадра — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="status">❌ Голова обрезана краем кадра — пример от заказчика</div>
           <div class="body"><p>Верх кадра обрезает человеку голову — он виден не полностью. Действует то же правило, что и для любого другого выхода за кадр (см. «Текст / предметы / выход за кадр» выше): во время движения человек должен быть виден целиком.</p></div>
         </div>
@@ -142,22 +149,19 @@
           <div class="body"><p>Масштаб частей коллажа не совпадает. Такое видео к сбору не подлежит.</p></div>
         </div>
         <div class="example-card fail" style="margin-bottom:0;">
-          <a class="media video-fallback portrait" href="https://www.youtube.com/shorts/9GbVeuCHtAw" target="_blank" rel="noopener noreferrer">
-            <img src="https://i.ytimg.com/vi/9GbVeuCHtAw/hq2.jpg" alt="Пример коллажа с неравными частями — не подходит">
-            <span class="play"><span>▶</span></span>
-            <span class="caption">Автор запретил показ плеера на сторонних сайтах — открыть пример на видеоисточнике ↗</span>
-          </a>
+          <iframe class="media portrait" src="https://www.youtube.com/embed/9GbVeuCHtAw" title="Пример коллажа с неравными частями — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="status">❌ Части коллажа не равны — пример от заказчика</div>
           <div class="body"><p>Одна часть коллажа заметно меньше другой. Такое видео к сбору не подлежит.</p></div>
         </div>
         <div class="example-card fail" style="margin-bottom:0;">
-          <a class="media video-fallback portrait" href="https://www.youtube.com/shorts/N0dFeGKlkuU" target="_blank" rel="noopener noreferrer">
-            <img src="https://i.ytimg.com/vi/N0dFeGKlkuU/hq2.jpg" alt="Пример коллажа с неравными частями — не подходит">
-            <span class="play"><span>▶</span></span>
-            <span class="caption">Автор запретил показ плеера на сторонних сайтах — открыть пример на видеоисточнике ↗</span>
-          </a>
+          <iframe class="media portrait" src="https://www.youtube.com/embed/N0dFeGKlkuU" title="Пример коллажа с неравными частями — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="status">❌ Части коллажа не равны — пример от заказчика</div>
           <div class="body"><p>Одна часть коллажа заметно меньше другой. Такое видео к сбору не подлежит.</p></div>
+        </div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <iframe class="media portrait" src="https://www.youtube.com/embed/iD9dW-JXMX4" title="Пример: вместо второй части коллажа размытые области — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="status">❌ Должно быть две части коллажа — комментарий валидатора</div>
+          <div class="body"><p>Комментарий валидатора: частей коллажа должно быть две, а здесь остальные части кадра просто размыты.</p></div>
         </div>
       </div>
 
@@ -178,22 +182,14 @@
 
       <div class="example-grid">
         <div class="example-card fail" style="margin-bottom:0;">
-          <a class="media video-fallback" href="https://www.youtube.com/watch?v=9IlOLRxcpRM" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.youtube.com/vi/9IlOLRxcpRM/hqdefault.jpg" alt="Пример видео, полностью созданного ИИ — не подходит">
-            <span class="play"><span>▶</span></span>
-            <span class="caption">Автор запретил показ плеера на сторонних сайтах — открыть пример на видеоисточнике ↗</span>
-          </a>
+          <iframe class="media" src="https://www.youtube.com/embed/9IlOLRxcpRM" title="Пример видео, полностью созданного ИИ — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="status">❌ Видео полностью создано ИИ — пример от заказчика</div>
           <div class="body"><p>Такое видео недопустимо: оно целиком сгенерировано нейросетью, хотя по жанру мимикрирует под настоящее «CGI до/после». Отличайте его от примеров 1–4 ниже — там реальные киноспецэффекты, и это именно то, что нужно собирать.</p></div>
         </div>
         <div class="example-card fail" style="margin-bottom:0;">
-          <a class="media video-fallback portrait" href="https://www.youtube.com/shorts/psKmBjr9WBk" target="_blank" rel="noopener noreferrer">
-            <img src="https://i.ytimg.com/vi/psKmBjr9WBk/hq2.jpg" alt="Пример короткого ИИ-сгенерированного видео — не подходит">
-            <span class="play"><span>▶</span></span>
-            <span class="caption">Автор запретил показ плеера на сторонних сайтах — открыть пример на видеоисточнике ↗</span>
-          </a>
-          <div class="status">❌ Видео от ИИ и короче 5 секунд — пример от заказчика</div>
-          <div class="body"><p>Сразу два нарушения: видео полностью создано нейросетью, и сам сегмент с движением короче 5 секунд (см. «<a href="#crit-dlitelnost-dvizheniya">Длительность движения</a>» выше).</p></div>
+          <iframe class="media portrait" src="https://www.youtube.com/embed/psKmBjr9WBk" title="Пример: видео от ИИ, движение всего 3 секунды — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="status">❌ Видео от ИИ, движение — 3 секунды — пример от заказчика</div>
+          <div class="body"><p>Сразу два нарушения: видео полностью создано нейросетью, и сегмент с движением длится всего 3 секунды, а нужно не меньше 5 (см. «<a href="#crit-dlitelnost-dvizheniya">Длительность движения</a>» выше).</p></div>
         </div>
       </div>
     </section>
@@ -251,6 +247,7 @@
           <li>Ссылка ведёт на видео в разрешении <strong>HD (1280×720)</strong> и не длиннее 30 минут.</li>
           <li>Отмечен чекбокс ориентации — <strong>вертикальная</strong> или <strong>горизонтальная</strong>.</li>
           <li>Нажата кнопка <strong>«Проверить ссылку»</strong>, чтобы исключить дубли.</li>
+          <li>Движение выполняет <strong>человек или человекоподобное существо</strong> (прямоходящее, с глазами и конечностями как у человека), а не неживое.</li>
           <li>Движение целиком, без склеек — <strong>завершено</strong> и идентично в обеих частях коллажа.</li>
           <li>Граница между частями <strong>тонкая</strong> и по центру, масштаб частей совпадает.</li>
           <li>Такое движение <strong>ещё не собиралось</strong> в проекте.</li>
