@@ -55,7 +55,7 @@
         <table>
           <thead><tr><th class="field">Поле</th><th>Что вносим</th></tr></thead>
           <tbody>
-            <tr id="field-link"><td class="num field">Ссылка</td><td>Ссылка на видеоколлаж, подходящий по критериям ниже. Обязательно <strong>HD (1280×720)</strong> — для любой ориентации коллажа, проверяется через значение «Качество» в приложении видеоисточника. Заказчик отдельно уточняет: перед отправкой проверяйте не только разрешение по цифрам, но и общее <strong>качество картинки</strong> — смазанное/пиксельное видео не подходит, даже если формально указано HD.</td></tr>
+            <tr id="field-link"><td class="num field">Ссылка</td><td>Ссылка на видеоколлаж, подходящий по критериям ниже. Принимается только полный адрес видеоисточника с «www.» и путём <code>/shorts/…</code> или <code>/watch?…</code> — <strong>«www.» обязательно</strong>, короткие ссылки или ссылки без «www.» не принимаются. Обязательно <strong>HD (1280×720)</strong> — для любой ориентации коллажа, проверяется через значение «Качество» в приложении видеоисточника. Заказчик отдельно уточняет: перед отправкой проверяйте не только разрешение по цифрам, но и общее <strong>качество картинки</strong> — смазанное/пиксельное видео не подходит, даже если формально указано HD.</td></tr>
             <tr id="field-orientation"><td class="num field">Ориентация видео</td><td>Чекбокс «Вертикальная» или «Горизонтальная» — по ориентации коллажа. Один из двух обязателен: без отмеченного чекбокса задание не отправится. Заказчик уточнил: <strong>выставленная ориентация учитывается при оценке задания</strong> — примеры обеих ориентаций ниже.</td></tr>
             <tr id="field-check"><td class="num field">«Проверить ссылку»</td><td>Проверяет <strong>точное совпадение</strong> — не была ли уже добавлена именно эта ссылка. Если да — задание не отправится, нужно подставить другую ссылку. «То же самое движение» на другом видео кнопка не ловит — см. «<a href="#crit-povtory">Повторы движения</a>».</td></tr>
           </tbody>
@@ -73,11 +73,16 @@
         </div>
       </div>
 
-      <div class="example-grid" style="grid-template-columns:1fr;">
+      <div class="example-grid">
         <div class="example-card fail" style="margin-bottom:0;">
           <iframe class="media portrait" src="https://www.youtube.com/embed/aAt-lIbUnRo" title="Пример: низкое качество видео — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="status">❌ Низкое качество — комментарий валидатора</div>
           <div class="body"><p>Комментарий валидатора: низкое качество. Проверяйте картинку целиком, а не только цифры разрешения.</p></div>
+        </div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <iframe class="media portrait" src="https://www.youtube.com/embed/8A8tXHWNIYk" title="Пример: низкое качество видео — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="status">❌ Низкое качество — пример от заказчика</div>
+          <div class="body"><p>Замечание заказчика: у видео на этой заявке не должно быть такого плохого качества.</p></div>
         </div>
       </div>
 
