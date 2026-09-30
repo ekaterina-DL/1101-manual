@@ -36,6 +36,9 @@ window.SITE_SEARCH_INDEX = [
     keywords: "дубли проверка ссылки" },
 
   // ---------- criteria.html: критерии ----------
+  { page: "criteria.html", anchor: "crit-zapreshchennye-syuzhety", title: "Запрещённые сюжеты", section: "Критерии отбора видео",
+    keywords: "курение алкоголь запрещённые вещества наркотики насилие не собираем для всех заявок" },
+
   { page: "criteria.html", anchor: "crit-g-duration", title: "Длительность видео и движения", section: "Критерии отбора видео",
     keywords: "30 минут 5 секунд 60 секунд склейки переходы завершённость траектория" },
   { page: "criteria.html", anchor: "crit-g-people", title: "Человек в кадре", section: "Критерии отбора видео",
