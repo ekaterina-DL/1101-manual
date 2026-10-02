@@ -56,7 +56,7 @@
           <thead><tr><th class="field">Поле</th><th>Что вносим</th></tr></thead>
           <tbody>
             <tr id="field-link"><td class="num field">Ссылка</td><td>Ссылка на видеоколлаж, подходящий по критериям ниже. Принимается только полный адрес видеоисточника с «www.» и путём <code>/shorts/…</code> или <code>/watch?…</code> — <strong>«www.» обязательно</strong>, короткие ссылки или ссылки без «www.» не принимаются. Обязательно <strong>HD (1280×720)</strong> — для любой ориентации коллажа, проверяется через значение «Качество» в приложении видеоисточника. Заказчик отдельно уточняет: перед отправкой проверяйте не только разрешение по цифрам, но и общее <strong>качество картинки</strong> — смазанное/пиксельное видео не подходит, даже если формально указано HD. Обе части коллажа должны быть <strong>одинакового качества</strong>.</td></tr>
-            <tr id="field-orientation"><td class="num field">Ориентация видео</td><td>Чекбокс «Вертикальная» или «Горизонтальная» — по ориентации коллажа. Один из двух обязателен: без отмеченного чекбокса задание не отправится. Заказчик уточнил: <strong>выставленная ориентация учитывается при оценке задания</strong> — примеры обеих ориентаций ниже.</td></tr>
+            <tr id="field-orientation"><td class="num field">Ориентация видео</td><td>Чекбокс «Вертикальная» или «Горизонтальная» — по ориентации коллажа. Один из двух обязателен: без отмеченного чекбокса задание не отправится. <strong>Выставленная ориентация учитывается при оценке задания.</strong> Как определить (точное правило заказчика действует <strong>с 02.10.2026</strong>; раньше чёткого определения не было — просто брались подписанные заказчиком примеры): <strong>вертикальная</strong> — если части коллажа расположены одна <strong>над</strong> другой; <strong>горизонтальная</strong> — если части расположены <strong>рядом</strong> друг с другом. Примеры обеих ориентаций ниже.</td></tr>
             <tr id="field-check"><td class="num field">«Проверить ссылку»</td><td>Проверяет <strong>точное совпадение</strong> — не была ли уже добавлена именно эта ссылка. Если да — задание не отправится, нужно подставить другую ссылку. «То же самое движение» на другом видео кнопка не ловит — см. «<a href="#crit-povtory">Повторы движения</a>».</td></tr>
           </tbody>
         </table>
@@ -64,12 +64,14 @@
 
       <div class="example-grid">
         <div class="example-card pass" style="margin-bottom:0;">
-          <iframe class="media portrait" src="https://www.youtube.com/embed/WPuFdMbOcoM" title="Пример вертикального коллажа — от заказчика" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="status">✅ Вертикальный коллаж — пример от заказчика</div>
+          <iframe class="media portrait" src="https://www.youtube.com/embed/dS1VfENLy0A" title="Пример вертикальной ориентации — от заказчика" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="status">✅ Вертикальная ориентация — пример от заказчика</div>
+          <div class="body"><p>Части коллажа расположены одна над другой.</p></div>
         </div>
-        <div class="example-card pass" style="margin-bottom:0;">
-          <iframe class="media portrait" src="https://www.youtube.com/embed/5GUFgEs8z3Q" title="Пример горизонтального коллажа — от заказчика" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="status">✅ Горизонтальный коллаж — пример от заказчика</div>
+        <div class="example-card fail" style="margin-bottom:0;">
+          <iframe class="media portrait" src="https://www.youtube.com/embed/ZUx8rVQjg04" title="Пример горизонтальной ориентации — от заказчика" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="status">❌ Горизонтальная ориентация — пример от заказчика</div>
+          <div class="body"><p>Части коллажа расположены рядом друг с другом. Замечание заказчика: само видео не подходит для сбора — см. «<a href="#crit-dve-chasti">Состав кадра</a>» выше.</p></div>
         </div>
       </div>
 
@@ -176,7 +178,7 @@
           <div class="body"><p>Человек просто стоит, переминается и слегка покачивается — движение неактивное, такое видео не подходит (см. «Активность движения» выше).</p></div>
         </div>
         <div class="example-card fail" style="margin-bottom:0;">
-          <iframe class="media" src="https://www.youtube.com/embed/dS1VfENLy0A" title="Пример: человек просто идёт — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="media portrait" src="https://www.youtube.com/embed/dS1VfENLy0A" title="Пример: человек просто идёт — не подходит" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="status">❌ Человек просто идёт — пример от заказчика</div>
           <div class="body"><p>Замечание заказчика: видео, где человек просто идёт, брать не стоит.</p></div>
         </div>
