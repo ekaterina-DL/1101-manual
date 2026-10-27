@@ -27,8 +27,12 @@ window.SITE_SEARCH_INDEX = [
 
   // ---------- criteria.html: формат задания ----------
   { page: "criteria.html", anchor: "task-format", title: "Формат рабочего задания", section: "Критерии отбора видео",
-    keywords: "интерфейс ссылка вторая ссылка комментарий ориентация вертикальная горизонтальная проверить ссылки дубли" },
-  { page: "criteria.html", anchor: "task-formats", title: "Три формата видео", section: "Критерии отбора видео → Формат задания",
+    keywords: "интерфейс ссылка вторая ссылка комментарий ориентация вертикальная горизонтальная проверить ссылки дубли vimeo youtube источник" },
+  { page: "criteria.html", anchor: "task-format-vimeo", title: "Vimeo — текущий источник", section: "Критерии отбора видео → Формат задания",
+    keywords: "vimeo ссылка формат vimeo.com player.vimeo.com проверить ссылку ориентация текущий источник 27.10.2026" },
+  { page: "criteria.html", anchor: "task-format-youtube", title: "YouTube — три формата видео", section: "Критерии отбора видео → Формат задания",
+    keywords: "youtube ссылка www shorts watch три формата" },
+  { page: "criteria.html", anchor: "task-formats", title: "Три формата видео (YouTube)", section: "Критерии отбора видео → Формат задания",
     keywords: "видеоколлаж последовательное видео до и после два отдельных видео тайм-код нет ориентации сколько ссылок 15.10.2026" },
   { page: "criteria.html", anchor: "field-link", title: "Поле «Первая / вторая ссылка»", section: "Критерии отбора видео → Формат задания",
     keywords: "hd 1280x720 разрешение вертикальное горизонтальное качество картинки смазанное низкое формат ссылки www shorts watch короткая ссылка одинаковое качество частей вторая ссылка" },
